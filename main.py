@@ -1,17 +1,45 @@
+# from flask import Flask, render_template, request
+# import google.generativeai as genai
+# import os
+# import PyPDF2
+
+# # Initialize Flask app
+# app = Flask(__name__)
+
+# # Set up the Google API Key
+# os.environ["GOOGLE_API_KEY"] = "AIzaSyAEJyv-X4IdrfuB5xrC5CSGqiGfcbySePo  "
+# genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
+
+# # Initialize the Gemini model
+# model = genai.GenerativeModel("gemini-1.5-flash")
+
+
+
 from flask import Flask, render_template, request
 import google.generativeai as genai
 import os
+from dotenv import load_dotenv
 import PyPDF2
+
+# Load environment variables
+load_dotenv()
 
 # Initialize Flask app
 app = Flask(__name__)
 
-# Set up the Google API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAEJyv-X4IdrfuB5xrC5CSGqiGfcbySePo  "
-genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
+# Set up the Google API Key securely
+api_key = os.getenv("GOOGLE_API_KEY")
+if not api_key:
+    raise ValueError("⚠️ GOOGLE_API_KEY is missing! Please set it in .env file.")
+
+genai.configure(api_key=api_key)
 
 # Initialize the Gemini model
 model = genai.GenerativeModel("gemini-1.5-flash")
+
+
+
+
 
 # functions
 def predict_fake_or_real_email_content(text):
