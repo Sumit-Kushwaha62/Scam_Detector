@@ -98,10 +98,11 @@ python main.py
 
 
 
-
+## View Live Page
 [Live Demo](https://scam-detector-010.onrender.com)  
 
 ### Screenshot
-![Screenshot](https://github.com/Sumit-Kushwaha62/Scam_Detector/blob/main/assets/Screenshot1.png?raw=true)  
-![Screenshot](https://github.com/Sumit-Kushwaha62/Scam_Detector/blob/main/assets/Screenshot2.png?raw=true)  
-[Contact](https://www.linkedin.com/in/sumit-kushwaha-83b608357/)
+![Screenshot](https://github.com/Sumit-Kushwaha62/Scam_Detector/blob/main/assets/Screenshot1.png?raw=true) <br> 
+![Screenshot](https://github.com/Sumit-Kushwaha62/Scam_Detector/blob/main/assets/Screenshot2.png?raw=true) 
+
+- Created by [@Sumit-Kushwaha](https://www.linkedin.com/in/sumit-kushwaha-83b608357/)
