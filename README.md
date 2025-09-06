@@ -99,8 +99,8 @@ python main.py
 
 
 
-[!🔗 Live Demo]()  
+[!Live Demo](https://scam-detector-010.onrender.com)  
 
 ### Screenshot
-[! Screenshot](https://your-screenshot-link.com)  
-[! Contact](mailto:your-email@example.com)
+[!Screenshot](https://github.com/Sumit-Kushwaha62/Scam_Detector/blob/main/assets/Screenshot1.png?raw=true)  
+[!Contact](https://www.linkedin.com/in/sumit-kushwaha-83b608357/)
