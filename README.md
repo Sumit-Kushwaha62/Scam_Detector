@@ -25,7 +25,7 @@ This project allows users to upload PDF/TXT files or enter a URL and get real-ti
 
 - File Parsing: PyPDF2
 
-- Deployment: Gunicorn, Render/Heroku/Vercel
+- Deployment: Gunicorn, Render
 
 ## Project Structure
 
@@ -99,8 +99,9 @@ python main.py
 
 
 
-[!Live Demo](https://scam-detector-010.onrender.com)  
+[Live Demo](https://scam-detector-010.onrender.com)  
 
 ### Screenshot
-[!Screenshot](https://github.com/Sumit-Kushwaha62/Scam_Detector/blob/main/assets/Screenshot1.png?raw=true)  
-[!Contact](https://www.linkedin.com/in/sumit-kushwaha-83b608357/)
+![Screenshot](https://github.com/Sumit-Kushwaha62/Scam_Detector/blob/main/assets/Screenshot1.png?raw=true)  
+![Screenshot](https://github.com/Sumit-Kushwaha62/Scam_Detector/blob/main/assets/Screenshot2.png?raw=true)  
+[Contact](https://www.linkedin.com/in/sumit-kushwaha-83b608357/)
